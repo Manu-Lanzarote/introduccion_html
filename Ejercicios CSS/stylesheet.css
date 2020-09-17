@@ -1,6 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 #cont1 {
   font-family: "Ranchers", cursive;
 }
 #cont2 {
   font-family: "Nanum Gothic", sans-serif;
+}
+
+/************** css ejercicio 8 *************+*/
+
+#eje8 {
+  background-color: indianred;
+  color: aliceblue;
+}
+#primero,
+#segundo,
+#tercero {
+  padding: 5px 20px;
+}
+#segundo {
+  border: 1px solid white;
+  text-align: center;
+  margin: 20px;
+  z-index: 10;
+  background-color: indianred;
 }
